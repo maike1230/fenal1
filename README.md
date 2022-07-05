@@ -5,9 +5,4 @@
 |USD | 55,03 | 79,50 |
 |EUR  | 57,41 | 82,95 |
 
-```mermaid
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    про }|..|{ родсвеник призедента : uses
-```
+[МИР 24](https://imgtest.mir24.tv/images/mir_24_main_logo.png)](https://www.youtube.com/watch?v=Sm00QDNdp68)
