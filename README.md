@@ -4,3 +4,10 @@
 |----------------|:---------:|----------------:|
 |USD | 55,03 | 79,50 |
 |EUR  | 57,41 | 82,95 |
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
